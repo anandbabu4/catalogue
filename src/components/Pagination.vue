@@ -15,7 +15,6 @@ export default {
   name: "Pagination",
   data() {
     return {
-      msg: "Inside grid",
       perPage: 100,
       currentPage: this.$store.state.currentpage,
       fields: ["id", "name", "sku"],

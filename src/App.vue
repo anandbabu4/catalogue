@@ -8,23 +8,23 @@
 </template>
 
 <script>
-import Header from './components/Header.vue'
-import Footer from './components/Footer.vue'
-import Spinner from './components/Spinner.vue'
+import Header from "./components/Header.vue";
+import Footer from "./components/Footer.vue";
+import Spinner from "./components/Spinner.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
     Header,
     Footer,
-    Spinner
+    Spinner,
   },
   computed: {
-    isLoading(){
-    return this.$store.state.spinner
-    }
+    isLoading() {
+      return this.$store.state.spinner;
+    },
   },
-}
+};
 </script>
 
 <style>
