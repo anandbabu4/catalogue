@@ -17,8 +17,7 @@ export default new Router({
     {
       name: "product",
       path: "/product/:slug",
-      component: () => import("@/components/ProductDetail"),
-      props: true
+      component: () => import("@/components/ProductDetail")
     }
   ]
 });
